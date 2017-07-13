@@ -1,0 +1,5 @@
+<configuration debug="false">
+    <property name="LOG_EXCEPTION_CONVERSION_WORD"
+              value="%replace(%replace(%wEx){'.java','.jaba'}){'\n(?=.+)',' '}%nopex"/>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+</configuration>
